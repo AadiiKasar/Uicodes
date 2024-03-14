@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table 2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 80%;
+            min-height: 500px;
+            margin: auto;
+            border: 1px solid black;
+            padding: 20px;
+
+        }
+         table, th,tr,td{
+            border: 1px solid white;
+            margin: auto;
+            padding: 20px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table{
+            width: 80%;
+            
+            box-shadow: 10px 10px 2px gray;
+            margin: auto;
+        }
+        th{
+            background-color:purple;
+            color: aliceblue;
+        }
+        th:hover{
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+        }
+        table td:nth-child(odd){
+            background-color: darkgray;
+        }
+        table td:hover{
+            cursor: pointer;
+            color:saddlebrown;
+        }
+        input[type=button]{
+            background-color: purple;
+            color: white;
+            margin: auto;
+            padding: 10px;
+            cursor: pointer;
+            text-align: center;
+            
+            
+        }
+        input[type=button]:hover{
+            background-color: cornflowerblue;
+            color: beige;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+        <table>
+            <tr>
+                <th>TLD</th>
+                <th>DURATION</th>
+                <th>REGISTRATION</th>
+                <th>RENEWAL </th>
+                <th>TRANSFER</th>
+                <th>REGISTER</th>
+            </tr>
+            <tr>
+                <td>com</td>
+                <td>1 year</td>
+                <td>$70</td>
+                <td>$5.0</td>
+                <td>$5.0</td>
+                <td><input type="button" value="Sign Up"  ></td>
+            </tr>
+            <tr>
+                <td>net</td>
+                <td>1 year</td>
+                <td>75</td>
+                <td>5</td>
+                <td>5</td>
+                <td><input type="button" value="Sign Up"></td>
+            </tr>
+            <tr>
+                <td>org</td>
+                <td>1 year</td>
+                <td>65</td>
+                <td>5</td>
+                <td>5</td>
+                <td><input type="button" value="Sign Up"></td>
+            </tr>
+            <tr>
+                <td>biz</td>
+                <td>1 year</td>
+                <td>60</td>
+                <td>5</td>
+                <td>5</td>
+                <td><input type="button" value="Sign Up"></td>
+            </tr>
+            <tr>
+                <td>info</td>
+                <td>1 year</td>
+                <td>55</td>
+                <td>5</td>
+                <td>5</td>
+                <td><input type="button" value="Sign Up"></td>
+            </tr>
+            <tr>
+                <td>me</td>
+                <td>1 year</td>
+                <td>50</td>
+                <td>5</td>
+                <td>5</td>
+                <td><input type="button" value="Sign Up"></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

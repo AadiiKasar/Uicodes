@@ -1,0 +1,247 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .wrapper
+    {
+    width: 80%;
+    min-height: 600px;
+     /* border: 2px solid black; */
+    margin: auto;
+    }
+    .header{
+       
+        display: flex;
+    }
+    .logo {
+        width: 60%;
+        height: 60px;
+        /* margin: auto; */
+        float:left;
+        /* border: 2px solid #000; */
+    }
+    .logo h2{
+        margin-top: 12px;
+        margin-left: 200px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(17, 16, 16, 0.789);
+    }
+    
+    .menu {
+        float: right;
+        padding: 7px;
+        margin: auto;
+        /* border: 2px solid #000; */
+       
+    }
+    .menu a{
+        padding: 5px;
+        margin-bottom: 50px;
+        text-decoration: none;
+        /* border: 2px solid #000; */
+    }
+    .slider{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        /* border: 2px solid #000; */
+        padding: 20px;
+        margin-top: 10px;
+        background-repeat: no-repeat;
+        background-image: url(images/mountain.avif);
+        background-size: cover;
+        
+    }
+    .text1 {
+        margin-top: 70px;
+        padding: 20px;
+        
+    }
+   .slider button{
+        padding: 10px;
+        width: 175px;
+        text-align: center;
+        color: aliceblue;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgba(0, 0, 0, 0.851);
+    }
+    h1{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #000000db;
+        
+        
+        
+        
+
+    }
+    .text1 h2{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(0, 0, 0, 0.658);
+        word-spacing: 15px;
+        padding-bottom: 25px;
+    }
+   
+    .box{
+        width: 100%;
+        min-height: 100px;
+        /* border: 2px solid black; */
+        display: flex;
+    }
+    .box1,.box2,.box3{
+        width: 30%;
+        min-height: 100px;
+        /* border: 1px solid palevioletred; */
+        margin: auto;
+    }
+    .box1 img{
+     margin-left: 150px;    
+     margin-top: 20px;
+
+    }
+    .box2 img{
+        margin-left: 150px;    
+     margin-top: 20px;
+     border-radius: 50%;
+     padding: 5px;
+     border: 3px solid black;
+
+    }
+    .box3 img{
+        margin-left: 150px;    
+     margin-top: 20px;
+     border-radius: 50%;
+     padding: 7px;
+     
+     border: 3px solid black;
+
+    }
+    .feature{
+        text-align: center;
+        position: relative;
+        
+    }
+    .feature h2::after{
+        content: "";
+        position: absolute;
+        top: 25px;
+        left: 500px;
+        width: 200px;
+        background-color: skyblue;
+        height: 2px;
+        padding: 2px;
+    }
+    .dbox{
+        width: 100%;
+        min-height: 100px;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    .dbox1,.dbox2,.dbox3,.dbox4{
+        width: 20%;
+        margin: auto;
+        /* min-height: 150px; */
+        /* border: 2px solid; */
+    }
+    .dbox1 ,.dbox3{
+        text-align: center;
+        padding: 50px;
+    }
+    .dbox1  h2,p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .dbox1 button{
+        cursor: pointer;
+            border: 1px solid #3498db;
+            background-color: transparent;
+            height: 50px;
+            width: 150px;
+            color: #3498db;
+            font-size: 1 em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            
+        
+    }
+    .dbox3 h2,p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .dbox3 button{
+        cursor: pointer;
+            border: 1px solid #3498db;
+            background-color: transparent;
+            height: 50px;
+            width: 150px;
+            color: #3498db;
+            font-size: 1 em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+
+    }
+    .dbox2,.dbox4{
+        height: 300px;
+        margin-top: 45px;
+    }
+    .dbox2 img{
+        height: 100%;
+        width: 100%;
+    }
+    .dbox4 img{
+        height: 100%;
+        width: 100%;
+
+
+    }
+    .dslider{
+        /* border: 1px solid black; */
+        padding: 30px;
+        text-align: center;
+        
+    }
+    .dslider button{
+        cursor: pointer;
+            border: 1px solid #3498db;
+            background-color: transparent;
+            height: 50px;
+            width: 150px;
+            color: #3498db;
+            font-size: 1 em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+           
+
+    }
+    .foot{
+        display:flex;
+        /* border: 2px solid; */
+        
+    }
+    .leftflex{
+        float: left;
+        /* width: 500px; */
+        /* margin: auto; */
+        /* border: 2px solid; */
+        margin-top: 15px;
+    }
+    .rightflex {
+        /* width: 500px; */
+        float: right;
+        /* border: 2px solid black; */
+        margin: auto;
+        padding: 15PX;
+           }
+           .rightflex   ul {
+            float: right;
+            margin-right: 70px;
+            padding: 7px;
+            margin-left: 70px;
+            
+           }
+           li{
+            text-decoration: none;
+            list-style-type: none;
+           }
+           

@@ -1,0 +1,29 @@
+import java.util.*;
+
+class Factorial{
+  private int x;
+  void setValue(int x)
+  {
+    this.x=x;
+  }
+  int getFactorial()
+  {
+      
+  }
+   
+}
+public class FactorialApp{
+ 
+  public Static void main(String x[]){
+
+     int x;
+    Scanner s= new Scanner(System.in)
+    System.out.println("enter number ");
+    x=s.nextInt();
+   Factorial f= new Factorial();
+   f.setValue(x);
+   int result= f.getFactorial();
+   System.out.println("factorial of number is"+result); 
+  }
+
+}

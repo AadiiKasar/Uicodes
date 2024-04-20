@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractive login </title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: linear-gradient(to right, #F96167, #F9E795);
+        }
+
+        .main {
+            width: 80%;
+            min-height: 700px;
+            /* border: 2px solid yellow; */
+            margin: auto;
+            padding: 30px;
+            margin-top: 10px;
+        }
+
+        .formdiv {
+
+            width: 1050px;
+            min-height: 600px;
+            /* border: 3px solid crimson; */
+            padding: 30px;
+            margin: auto;
+            background-image: url(images/girl.jpeg);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: 100% 100% ;
+            margin-left: 20px;
+            margin-top: 16px;
+            border-radius: 10px;
+            
+
+        }
+
+        .formdata {
+            /* margin-top: 4000px; */
+            width: 400px;
+            border: 2px solid black;
+            min-height: 330px;
+            padding: 40px;
+            border-radius: 10px;
+            margin-left: 45px;
+            margin-top: 2em;
+            border-color: whitesmoke;
+            box-shadow: 5px 5px 2px whitesmoke;
+            
+
+
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            /* font-weight: bold; */
+            font-size: 16px;
+            padding: 10px;
+
+        }
+
+        label {
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-left: 10px;
+            margin-top: 20px;
+            padding-right: 10px;
+            /* padding-bottom: 200px; */
+        }
+
+        input[type=email] {
+            padding: 10px;
+            width: 90%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+
+        input[type=password] {
+            padding: 10px;
+            width: 90%;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+
+        input[type=checkbox] {
+            width: 10%;
+        
+            /* padding 2px; */
+            /* margin-right: 1px; */
+
+        }
+
+        input[type=submit] {
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+            padding: 8px;
+            margin-left: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: large;
+            color: white;
+            background-color:blueviolet;
+            margin-bottom: 1em;
+        }
+
+        label a {
+            width: 100%;
+            padding: 50px;
+        }
+        .footer{
+            width: 80%;
+            display: flex;
+            padding: 10px;
+        }
+        .google button{
+            /* display: inline-block; */
+            cursor: pointer;
+            border: 1px solid #db3434;
+            background-color: transparent;
+            height: 50px;
+            width: 150px;
+            color: #3498db;
+            font-size: 1 em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            color: red;
+            background-image: url(images/google.png);
+            background-repeat: no-repeat;
+            background-position: 30px;
+            background-size: 10%;
+            border-radius: 10px;
+
+        margin-right: 90px;
+    }
+    #lab{
+        margin-left: 1em;
+    }
+   
+    .facebook button{
+        /* display: inline-block; */
+        cursor: pointer;
+            border: 1px solid #3498db;
+            background-color: transparent;
+            height: 50px;
+            width: 150px;
+            color: #3498db;
+            font-size: 1 em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            background-image: url(images/facebook.png);
+            background-repeat: no-repeat;
+            background-position: 20px;
+            background-size: 12%;
+            border-radius: 10px;
+            margin-left: -5em;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="formdiv">
+
+            <form action="" method="post">
+                <div class="formdata">
+
+
+                    <h2>Login</h2>
+                    <p>Dont have account yet <a href="#">sign up</a></p>
+                    <label for="email"> Email Address</label>
+                    <input type="email" placeholder="enter email" autocomplete="off" name="email" id="email">
+                    <label for="pass">password <a href="#">Forgot password? </a></label>
+                    <input type="password" name="pass" id="pass" placeholder="Enter 6 character or more">
+                    <input type="checkbox" id="checkbox">
+                    <label id="lab" for="checkbox">Remember me</label>
+                    <input type="submit" value="Login" id="login">
+                    <hr class="hr-text gradient" data-content="OR">
+                    <div class="footer">
+                        <div class="google">
+                            <button>google</button>
+
+                        </div>
+                        <div class="facebook">
+                            <button>facebook</button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

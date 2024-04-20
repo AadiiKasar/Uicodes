@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Noto Sans", sans-serif;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        .box{
+            width: 60%;
+            min-height: 100px;
+            margin: auto;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+        }
+        .logo{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 60px;
+            background-color: aquamarine;
+            margin-bottom: 10px;
+        }
+        .logo h2{
+            color: cornsilk;
+            padding: 10px;
+            padding-top: 10px;
+            font-size: 1.7em;
+        }
+        .menu{
+            display: flex;
+            width: 100%;
+            min-height: 60px;
+            flex-direction: row;
+            background-color: blueviolet;
+            margin-bottom: 10px;
+        }
+        .menu ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            /* gap: 20px; */
+            align-items: center;
+        }
+        .menu ul li{
+            list-style-type: none;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.1em;
+        }
+        .slider{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 200px;
+            border: 2px solid black;
+        }
+        .main-body-content{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            min-height: 300px;
+            border:1px solid black;
+            margin-top: 10px;
+            justify-content: space-around;
+            
+        }
+        .main-body-content .slidebar{
+            display: flex;
+            flex-direction: row;
+            flex-basis: 20%;
+            background-color: yellowgreen;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .main-body-content .con{
+            display: flex;
+            flex-direction: row;
+            background-color: orange;
+            flex-basis: 75%;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .footer{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            min-height: 50px;
+            background-color: black;
+            color: antiquewhite;
+            margin-top: 10px;
+        }
+        @media only screen and (max-width:768px){
+            .box{
+                width: 100%;
+
+            }
+            .menu{
+                flex-direction: column;
+            }
+            .menu ul{
+                flex-direction: column;
+            }
+            .main-body-content{
+                flex-direction: column;
+            }
+            .slidebar{
+                min-height: 200px;
+                margin-bottom: 10px;
+
+            }
+            .con{
+                min-height: 300px;
+            }
+            .footer h4{
+                font-size: 3.5vw;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="logo">
+            <h2>Mechanical Coder</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">our clients</a></li>
+                <li><a href="#">portfolio</a></li>
+            </ul>
+
+        </div>
+        <div class="slider">
+
+        </div>
+        <div class="main-body-content">
+            <div class="slidebar">slidebar</div>
+            <div class="con">content</div>
+        </div>
+        <div class="footer">
+            <h4>This website Maintain by Adii Kasar  </h4>
+        </div>
+    </div>
+</body>
+</html>
